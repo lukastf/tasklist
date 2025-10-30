@@ -2,6 +2,6 @@
 
 ## Rotas:
 
-### GET /teste
+### POST /users
 
-retorna objeto criado no banco
+cadastra um novo usuario
