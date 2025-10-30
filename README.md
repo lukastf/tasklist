@@ -27,12 +27,13 @@ autentica o usuario e recebe um token jwt
 
 ### PUT /users
 
-edita um usuario
+edita um usuario, precisa usar jwt no header, Authorization `Bearer + ( JWT )`
 
 ```
 {
   "name":"Exemplo",
   "email": "exemplo@mexemplo.com",
-  "password": "123123"
+  "oldPassword": "123123" (campo opcional)
+  "password": "123456" (campo opcional)
 }
 ```
