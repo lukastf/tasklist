@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+
 module.exports = {
   dialect: 'postgres',
   host: 'localhost',
