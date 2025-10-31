@@ -64,3 +64,20 @@ cria uma nova tarefa para o usuario, precisa usar jwt no header, Authorization `
 ### Get /tasks
 
 lista todas as tarefas do usuario, precisa usar jwt no header, Authorization `Bearer + ( JWT )`
+
+### PUT /tasks/:id
+
+edita uma tarefa (:id), precisa usar jwt no header, Authorization `Bearer + ( JWT )`
+
+\*campos são opcionais
+
+```
+{
+  "task": "teste"
+  "check" : true
+}
+```
+
+### Delete /tasks/:id
+
+deleta uma tarefa (:id) do usuario, precisa usar jwt no header, Authorization `Bearer + ( JWT )`
