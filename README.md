@@ -48,3 +48,19 @@ edita um usuario, precisa usar jwt no header, Authorization `Bearer + ( JWT )`
   "confirmPassword": "123456"
 }
 ```
+
+### POST /tasks
+
+cria uma nova tarefa para o usuario, precisa usar jwt no header, Authorization `Bearer + ( JWT )`
+
+\*todos os campos são obrigatorios
+
+```
+{
+  "task": "exemplo",
+}
+```
+
+### Get /tasks
+
+lista todas as tarefas do usuario, precisa usar jwt no header, Authorization `Bearer + ( JWT )`
